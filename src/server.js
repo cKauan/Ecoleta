@@ -75,6 +75,10 @@ server.post("/savepoint", (req, res) => {
 
 
 server.get("/search-results", (req, res) => {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3cf49a7b6502bdd81bf54cefad38b18521ac2f47
     const search = req.query.search
     if (search == "") {
         // Pesquisa vazia 
