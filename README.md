@@ -1,22 +1,75 @@
-# :rocket: Ecoleta
+![alt text](https://github.com/cKauan/Ecoleta/blob/master/github/desktop.png)
+# :recycle: Ecoleta
+Este Projeto foi desenvolvido durante a semana Next Level Week
 
-Este é o projeto completo que foi desenvolvido através da semana Next Level Week
 
-## :closed_book: Instalação
-
-Clone o repositório
+## Instalação
+Você precisa ter o NodeJs ou Yarn instalado em sua máquina
+<ul>
+<h3> Módulos Necessários </h3>
+  
+<li>Instalando Nodemon</li>  
 
 ```bash
-git clone https://github.com/cKauan/nlw-rocketseat.git
-```
-## :green_book: Uso
-É necessário ter o node instalado em sua máquina
+npm install -g nodemon
+```  
+<li>Instalando Express </li>  
+
 ```bash
-node start
+npm install express
+```  
+<li>Instalando o sqlite3 </li>  
+
+```bash
+npm install sqlite3
+```  
+<li>Instalando o nunjucks </li>  
+
+```bash
+npm install nunjucks
+```  
+
+</ul>
+
+## :closed_book: Uso
+<ul>
+<li>Clone o repositório</li>
+
+```bash
+git clone https://github.com/cKauan/Ecoleta.git
 ```
+<li>Inicie a aplicação com o seguinte comando</li>
+
+```bash
+nodemon .
+```
+</ul>
+
+## :brain: Tecnologias Utilizadas 
+<p align="left">
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original.svg" alt="javascript" width="40" height="40"/>
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/express/express-original.svg" alt="javascript" width="40" height="40"/>
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="javascript" width="40" height="40"/>
+  <br>
+  <br>
+</p>
+
+## :iphone: Capturas de Tela
+<img src="https://github.com/cKauan/Ecoleta/blob/master/github/desktop-cadastro.png" width="683" height="384"> <img src="https://github.com/cKauan/Ecoleta/blob/master/github/desktop-pesquisa.png" width="683" height="384"> <img src="https://github.com/cKauan/Ecoleta/blob/master/github/desktop-resultado.png" width="683" height="384">
+
 
 ## :raised_hand: Contribuições
-Para alguma mudança, abra um "issue" para sugerir o que você quer mudar.
+Para sugestões, abra um "issue", sinta-se confortável para o fazer.
+
+## :raised_hand: Um pouco mais da semana <a href="https://rocketseat.com.br">Next Level Week<a/>
+
+O  NLW é um evento com muito código, desafios, networking e um único objetivo: te levar para o próximo nível.
+Programação é uma disciplina prática. Ou seja, para dominar uma tecnologia não basta apenas conhecer a teoria ou ler a documentação: você precisa colocar a mão no código.
+Através do nosso método você vai aprender novas ferramentas, conhecer novas tecnologias e descobrir hacks que vão impulsionar a sua carreira.
+Um experiência online e totalmente gratuita para evoluir suas habilidades em programação e colocar mais um trabalho completo no seu portfolio.
 
 ## :scroll: Licença
 [MIT](https://choosealicense.com/licenses/mit/)
